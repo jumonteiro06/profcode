@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+     <header>
+            <img src="img/banner.png" widht="200" height="200">
+    
+            <nav>
+                <a href="index.html">Home</a>::
+                <a href="musicas.html">Músicas</a>::
+                <a href="aulas.html">Aulas grátis</a>::
+                <a href="planos.html">Planos</a>::
+                <a href="contato.html">Contato</a>
+            </nav>
+     </header>
+     
+     <main>
+        <form action="" mathod="get">
+        <fieldset>
+            <legend>Informações para contato</legend>
+
+            <label>Nome:</label>
+            <input type="text" name="txtnome" maxlength="80"
+            autofocus required placeholder="Digite seu nome">
+            <br>
+
+            <label>E-mail:</label>
+            <input type="email" name="txtemail"
+            required placeholder="Digite seu e-mail">
+            <br>
+
+            <label>Data de Nascimento:</label>
+            <input type="date" name="txtdata">
+            <br>
+            
+            <label>CPF:</label>
+            <input type="cpf" name="txtcpf" maxlength="11">
+            <br>
+
+            <label>Telefone para Contato:</label>
+            <input type="tel" name="txttel" maxlength="11">
+            <br>
+
+            <label>Mensagem:</label><br>
+            <textarea rows="5" cols="20" name="msg"></textarea>
+            <br>
+
+            <button>Enviar</button>
+
+        </fieldset>
+        </form>
+     </main>
